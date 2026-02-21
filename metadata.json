@@ -1,0 +1,5 @@
+{
+  "name": "Istanbul Travel Planner AI",
+  "description": "A smart travel planning app for tourists visiting Istanbul, powered by Gemini AI.",
+  "requestFramePermissions": ["geolocation"]
+}
