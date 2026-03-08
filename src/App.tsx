@@ -109,16 +109,14 @@ function App() {
         </main>
 
         {/* Footer */}
-        <div className="my-8 px-4">
-    <div
-    className="eg-widget"
-    data-widget="search"
-    data-program="us-expedia"
-    data-lobs="stays,flights"
-    data-network="pz"
-    data-camref="1100l5Fovn"
-    data-pubref=""
-  />
+       <div className="my-8 text-center">
+  <a 
+    href="https://www.expedia.com/Istanbul-Hotels.d602925.Travel-Guide-Hotels?affcid=us-expedia.affiliate.1100l5Fovn"
+    target="_blank"
+    className="bg-blue-600 text-white px-6 py-3 rounded-lg text-lg"
+  >
+    🏨 Book Hotels in Istanbul
+  </a>
 </div>
                 <footer className="text-center mt-20 text-slate-400 text-sm pb-8 border-t border-slate-200 pt-8">
           <div className="flex items-center justify-center gap-2 mb-2">
