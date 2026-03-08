@@ -103,6 +103,7 @@ function App() {
         </main>
 
         {/* Footer */}
+        <div dangerouslySetInnerHTML={{__html: <div class="eg-widget" data-widget="search" data-program="us-expedia" data-lobs="stays,flights" data-network="pz" data-camref="1100l5Fovn" data-pubref=""></div><script class="eg-widgets-script" src="https://creator.expediagroup.com/products/widgets/assets/eg-widgets.js"></script>}} />
         <footer className="text-center mt-20 text-slate-400 text-sm pb-8 border-t border-slate-200 pt-8">
           <div className="flex items-center justify-center gap-2 mb-2">
              <Map className="w-4 h-4 text-teal-500" />
