@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { UserPreferences, ItineraryResponse } from './types';
 import { generateItinerary } from './lib/gemini';
 import { ItineraryForm } from './components/ItineraryForm';
@@ -10,6 +10,12 @@ function App() {
   const [itinerary, setItinerary] = useState<ItineraryResponse | null>(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+  useEffect(() => {
+  const script = document.createElement('script');
+  script.src = 'https://creator.expediagroup.com/products/widgets/assets/eg-widgets.js';
+  script.async = true;
+  document.body.appendChild(script);
+}, []);
   const [language, setLanguage] = useState<'en' | 'tr' | 'de' | 'fa' | 'ar' | 'fr'>('en');
 
   const handleSubmit = async (prefs: UserPreferences) => {
@@ -104,12 +110,7 @@ function App() {
 
         {/* Footer */}
         <div className="my-8 px-4">
-  <script
-    async
-    src="https://creator.expediagroup.com/products/widgets/assets/eg-widgets.js"
-    className="eg-widgets-script"
-  />
-  <div
+    <div
     className="eg-widget"
     data-widget="search"
     data-program="us-expedia"
