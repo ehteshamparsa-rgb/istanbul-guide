@@ -117,6 +117,13 @@ function App() {
   >
     🏨 Book Hotels in Istanbul
   </a>
+         <a
+  href="https://www.getyourguide.com?partner_id=BH5S9T9&utm_medium=online_publisher"
+  target="_blank"
+  className="bg-teal-600 text-white px-6 py-3 rounded-lg text-lg mt-3 inline-block"
+>
+  🎯 Book Tours & Activities
+</a>
 </div>
                 <footer className="text-center mt-20 text-slate-400 text-sm pb-8 border-t border-slate-200 pt-8">
           <div className="flex items-center justify-center gap-2 mb-2">
