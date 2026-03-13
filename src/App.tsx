@@ -118,6 +118,13 @@ function App() {
     🏨 Book Hotels in Istanbul
   </a>
          <a
+  href="https://www.agoda.com/partners/partnersearch.aspx?pcs=1&cid=1960634&hl=en-us"
+  target="_blank"
+  className="bg-red-500 text-white px-6 py-3 rounded-lg text-lg mt-3 inline-block"
+>
+  🏨 Book Hotels on Agoda
+</a>
+         <a
   href="https://www.getyourguide.com?partner_id=BH5S9T9&utm_medium=online_publisher"
   target="_blank"
   className="bg-teal-600 text-white px-6 py-3 rounded-lg text-lg mt-3 inline-block"
